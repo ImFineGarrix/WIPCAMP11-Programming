@@ -19,14 +19,15 @@ public class _1_Exercise {
          int x;
          int y;
          
-        System.out.print("Enter x : ");
+        System.out.print("พ่อให้เงิน : ");
 
         x = sc.nextInt();
         
-        System.out.print("Enter y : ");
+        System.out.print("แม่ให้เงิน : ");
 
         y = sc.nextInt();
                
-        System.out.println("X+Y : " + (x+y));
+        System.out.println("เงินรวม"
+                + " : " + (x+y));
     }
 }
